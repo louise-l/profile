@@ -1,0 +1,103 @@
+/*COLORS USED*/
+/* https://coolors.co/ffc759-ff7b9c-607196-babfd1-e8e9ed */
+
+body{
+  background-color: #BABFD1;
+  font-family: courier;
+}
+
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+  color: #607196;
+  word-break: break-word;
+}
+
+h1{
+  font-size: 70px;
+  line-height: 1em;
+}
+
+p {
+  margin:20px;
+  padding-bottom: 20px;
+}
+
+.container{
+  width:60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+article{
+  padding: 50px;
+  margin-top: 20px;
+  background-color: #E8E9ED;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+}
+
+.button{
+  background-color: #ffc759;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  transition: box-shadow 1s ease-in-out;
+}
+
+.button:hover{
+  color:black;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5)
+}
+
+.avatar{
+  border-radius: 50%;
+  width:150px;
+  margin: 0 auto;
+  position: relative;
+  transition: filter 1s ease-in-out;
+}
+
+.avatar:hover{
+  filter: blur(5px);
+  border-radius: 50%;
+  width:150px;
+  margin: 0 auto;
+}
+
+.align_icons{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.align_icons a {
+  color: black;
+  font-size: 32px;
+  text-decoration:none;
+}
+
+.align_icons a:hover {
+  color: #ffc759;
+  font-size: 32px;
+  text-decoration:none;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media(max-width: 960px){
+  .container{
+    width:60%;
+  }
+
+}
+
+@media(max-width: 640px){
+
+  .container{
+    width:90%;
+  }
+
+}
